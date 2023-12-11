@@ -13,7 +13,7 @@ postRouter.get("/",async(req,res)=>{
 })
 
 
-postRouter.post("/create",async(req,res)=>{
+postRouter.post("/add",async(req,res)=>{
     try{
         let postdata=req.body;
         console.log(postdata);
